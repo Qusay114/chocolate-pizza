@@ -1,0 +1,156 @@
+
+
+/* The style of the header */
+header
+{
+    width: 100%;
+    height: 185px;
+    background-color: white;
+}
+
+.headerLeft
+{
+    float:left;
+    width:33%;
+    height: 84px;
+}
+.headerLeft h1
+{
+    display: inline;
+    position: relative;
+    /* top: -28px; */
+    left: 10px;
+    bottom: 28px;
+}
+
+.headerLeft p 
+{
+    position: relative;
+    left: 55px;
+    /* top: -36px; */
+    bottom: 37px;
+}
+
+
+.headerRight
+{
+    float:right;
+    width:67%;
+}
+
+.headerRight ul 
+{
+    position: relative;
+    /* left: 633px; */
+    bottom: 15px;
+    margin-left: 69.5%;
+}
+.headerRight ul li
+{
+    display: inline;
+}
+
+li#logoShift 
+{
+    margin-left: 10px;
+}
+
+.separater
+{
+    clear: both;
+    width: 100%;
+    height: 30px;
+    background-color: black;
+    background-image: url("../images/separater.PNG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+/* End the style of the header */
+
+
+/* The style of the main */
+
+.topMain h1 {
+    margin-top: 78px;
+    font-size: 53px;
+    margin-bottom: 10px;
+}
+
+.topMain p {
+    display: inline;
+    margin-left: 6px;
+}
+
+.topMain img {
+    margin-left: 75%;
+}
+
+
+img#pizzImg {
+    width: 100%;
+    margin-top: 65px;
+}
+
+
+.bottomMain
+{
+    background-image: url(https://github.com/LTUC/amman-201d19/blob/master/class-10/lab-a/lab-assets/list-bg.png?raw=true);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 409px;
+    font-size: 38px;
+}
+
+
+.bottomMain ul 
+{
+    display: inline-block;
+    display: inline-block;
+    margin-left:79px;
+    margin-top: 56px;
+    list-style: none;
+}
+
+footer img,h1,button
+{
+    display: inline;
+}
+#footerP
+{
+    display: inline;
+}
+
+footer div
+{
+    margin-bottom: 21px;
+    margin-top: 68px;
+}
+
+footer h1 {
+    position: relative;
+    bottom: 42px;
+    left: 20px;
+}
+
+footer p 
+{
+    position: relative;
+    right: 235px;
+}
+
+footer button {
+    width: 208px;
+    height: 66px;
+    background-color: #BC7058;
+    margin-left: 176px;
+    color: white;
+    font-size: 20px
+}
+
+footer button:hover
+{
+    background-color: black;
+    cursor: pointer;
+}
