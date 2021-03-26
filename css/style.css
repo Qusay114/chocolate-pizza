@@ -1,4 +1,10 @@
-
+body
+{
+    height: 70%;
+    width:70%;
+    margin-left: 15%;
+    margin-top:2%;
+}
 
 /* The style of the header */
 header
@@ -45,7 +51,7 @@ header
     position: relative;
     /* left: 633px; */
     bottom: 15px;
-    margin-left: 69.5%;
+    margin-left: 56.5%;
 }
 .headerRight ul li
 {
@@ -102,7 +108,7 @@ li#logoShift
     opacity: 0.9;
 }
 .topMain img {
-    margin-left: 75%;
+    margin-left: 65%;
 }
 
 
@@ -119,7 +125,7 @@ img#pizzImg {
     background-size: cover;
     width: 100%;
     height: 409px;
-    font-size: 38px;
+    font-size: 24px;
 }
 
 
@@ -128,7 +134,7 @@ img#pizzImg {
     display: inline-block;
     display: inline-block;
     margin-left:79px;
-    margin-top: 56px;
+    margin-top: 62px;
     list-style: none;
 }
 
@@ -138,7 +144,10 @@ footer img,h1,button
 }
 #footerP
 {
-    display: inline;
+    font-size: 16px;
+    opacity: 0.9;
+    
+    right: 234px;
 }
 
 footer div
@@ -161,16 +170,22 @@ footer p
 
 #footerP
 {
-    font-size: 20px;
+    font-size: 18px;
     opacity: 0.9;
+    left: 98px;
+    bottom: 47px;
 }
+
 footer button {
     width: 208px;
     height: 66px;
     background-color: #BC7058;
-    margin-left: 25px;
+    margin-left: 78%;
     color: white;
-    font-size: 20px
+    font-size: 20px;
+    /* right: 18px; */
+    position: relative;
+    bottom: 144px;
 }
 
 footer button:hover
@@ -183,7 +198,7 @@ footer button:hover
 footer hr 
 {
     display:inline-block;
-    width:48%;
+    width:47%;
 }
 
 p#lastP 

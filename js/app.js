@@ -2,7 +2,7 @@ let slash = '\\';
 let slashes = '';
 let sepDiv = document.getElementsByClassName('separater');
 console.log(sepDiv);
-for(let i =0 ; i < 300 ; i++)
+for(let i =0 ; i < 212 ; i++)
 {
     slashes = slashes + slash ;
 }
